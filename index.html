@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+    <!-- bootstrap header section -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+    <div class="container">
+        <a class="navbar-brand" href="#">Complex UI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Section 1</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Section 2</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link">Section 3</a>
+            </li>
+        </ul>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        </div>
+    </div>
+    </nav>
+
+    <!-- Carousel section -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="./images/corausal-img-1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+            <h5>Sunset</h5>
+            <p>Beautiful sunset on beach.</p>
+            <button type="button" class="btn btn-primary">Call to action</button>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="./images/corausal-img-2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+            <h5>Peace</h5>
+            <p>Golden view of setting sun.</p>
+            <button type="button" class="btn btn-primary">Call to action</button>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="./images/corausal-img-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+            <h5>Evening breeze</h5>
+            <p>Waves twinning  and clouds.</p>
+            <button type="button" class="btn btn-primary">Call to action</button>
+        </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+     <!-- flex-div Image section -->
+    <div class="wid">   
+        <div class="container image-wrapper my-5 flex-wrap flex-sm-wrap flex-md-nowrap">
+            <div class="container">
+                <img src="./images/img-1.jpg" class="d-block w-100" alt="img-1" >
+                <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, cumque.</p>
+            </div>
+            <div class="container">
+                <img src="./images/img-2.jpg" class="d-block w-100" alt="img-2">
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, magni.</p>
+            </div>
+            <div class="container">
+                <img src="./images/img-3.jpg" class="d-block w-100" alt="img-3">
+                <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, voluptatem?</p>
+            </div>
+        </div>
+    </div>   
+
+    <!-- Photo gallery section -->
+    <div class="container my-5">
+        <div class="row p-2">
+            <div class="col">
+                <img src="./images/grid-img-1.jpg" class="img-fluid" alt="">
+            </div>
+
+            <div class="col">
+                <div class="row mb-sm-3 mb-lg-4 mb-3">  
+                    <div class="col">
+                    <img src="./images/grid-img-6.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col">
+                    <img src="./images/grid-img-7.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="row mb-sm-3 mb-lg-4 mb-3">
+                    <div class="col">
+                    <img src="./images/grid-img-8.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col">
+                    <img src="./images/grid-img-9.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="row mb-sm-3 mb-lg-5 mb-2">
+                    <img src="./images/grid-img-2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="row mb-sm-3 mb-lg-5 mb-2">
+                    <img src="./images/grid-img-3.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="row p-2">
+            <div class="col-4">
+                <img src="./images/grid-img-4.jpg" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-8">
+                <img src="./images/grid-img-5.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- card section --> 
+    <div class="container my-5">
+        <div class="row" >
+            <div class="col-sm-12 col-lg-4 col-12 mb-4 mb-sm-4 mb-lg-0">
+                <div class="card ">
+                    <img src="./images/card-img-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Call to action</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-4 col-12 mb-4 mb-sm-4 mb-lg-0">
+                <div class="card">
+                    <img src="./images/card-img-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Call to action</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-12 col-lg-4 col-12 mb-4 mb-sm-4 mb-lg-0">
+                <div class="card">
+                    <img src="./images/card-img-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Call to action</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+<!-- Bootstrap footer section -->
+    <div class="container-fluid main bg-light">
+        <div class="container mt-sm-5 py-5 mt-0">
+            <div class="row my-4">
+                <div class="col">
+                    <h3>Useful Links</h3>
+                    <div class="d-flex flex-column">
+                    
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+                </div>
+                <div class="col">
+                    <h3>More Links</h3>
+                    <div class="d-flex flex-column">
+                
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+                </div>
+                <div class="col">
+                    <h3>Contact Us</h3>            
+                    <p>Email:<br>
+                    example@example.com</p>
+                    <p>Phone:+1(354)134-1245</p>
+                </div>
+            </div>
+
+            <div class="row my-4 d-flex">
+            <div class="col">
+                <span>&#169;</span> 2023 Complex UI. All Rights Reserved.
+            </div>
+            <div class="col">
+                <a class="btn btn-primary float-end" href="#navbar">Back to Top</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
